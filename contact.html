@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-body">
+    
+    <a href="/index.html">Back to home</a>
+    <form action="#">
+        <h1>Work with us</h1>
+        <p>Please upload your resume and we will get back to you</p>
+        <div class="first-form">
+            <div class="form-1">
+                <label for="firstName">First Name</label>
+                <input type="text" placeholder="John">
+            </div>
+            <div class="form-1">
+                <label for="lastName">Last Name</label>
+                <input type="text" placeholder="Doe">
+            </div>
+        </div>
+        
+        <div class="second-form">
+            <div class="form-2">
+                <label for="emailAddress">Email Address</label>
+                <input type="email" placeholder="you@company.com">
+            </div>
+            <div class="form-2">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="number" placeholder="+1 (333) 2345-567">
+            </div>
+        </div>
+
+        <div class="upload">
+            <label for="uploadResume">Upload Resume (.pdf or .docx. Less than 5 MB)</label>
+            <input type="file" accept=".pdf, .docx">
+        </div>
+        
+        <button>Send Resume</button>
+    </form>
+</body>
+</html>
